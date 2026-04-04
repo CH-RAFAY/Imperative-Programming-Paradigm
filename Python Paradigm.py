@@ -8,9 +8,22 @@ def reverse_string(S):
 
 print(reverse_string(S))
 
+
+
+
 # Check Duplication of Array
 
+my_list = [1, 2, 5, 6, 3, 4, 5, 2, 6]
+seen = set()
+duplications = []
 
+for x in my_list:
+    if x in seen:
+        duplications.append(x)
+    else:
+        seen.add(x)
+
+print (duplications)
 
 
 

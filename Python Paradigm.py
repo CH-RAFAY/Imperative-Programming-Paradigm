@@ -27,3 +27,8 @@ print (duplications)
 
 
 
+# Method 1: Slicing (Most Pythonic - One Liner)
+arr = [1, 2, 3, 4, 5]
+reversed_arr = arr[::-1]
+print(reversed_arr)  # [5, 4, 3, 2, 1]
+

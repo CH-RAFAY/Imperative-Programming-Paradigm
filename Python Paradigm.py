@@ -37,3 +37,9 @@ print (duplications)
 
 
 
+#Finding Second Largest element in an array
+
+def second_largest(arr):
+    arr = list(set(arr))
+    arr.sort()
+    return arr[-2]

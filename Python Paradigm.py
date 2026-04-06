@@ -38,8 +38,22 @@ print (duplications)
 
 
 #Finding Second Largest element in an array
+arr = [3, 1, 4, 1, 5, 9, 2, 6, 5, 3, 5]
 
 def second_largest(arr):
     arr = list(set(arr))
     arr.sort()
     return arr[-2]
+
+print(second_largest(arr))
+
+
+#Count frequency of characters
+
+from collections import Counter
+s = "hello world"
+
+def freq(s):
+    return Counter(s)
+
+print(freq(s))

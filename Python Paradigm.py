@@ -58,3 +58,14 @@ def freq(s):
 
 print(freq(s))
 
+
+
+
+# Imputation example
+from sklearn.impute import SimpleImputer
+
+# Mean imputation
+imputer_mean = SimpleImputer(strategy='mean')
+
+# Median imputation (better for skewed data)
+imputer_median = SimpleImputer(strategy='median')

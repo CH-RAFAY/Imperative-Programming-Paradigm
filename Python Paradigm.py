@@ -60,4 +60,4 @@ print(freq(s))
 
 
 def is_palindrome(s):
-    return s == s[::-1]
+    return s == s[::-

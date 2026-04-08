@@ -65,3 +65,12 @@ from collections import Counter
 
 def freq(s):
     return Counter(s)
+
+    s = int(input())
+def is_prime(s):
+    if s<2:
+        return False
+    if (s**0.5+1%2 == 0):
+        return True
+        
+print(is_prime())

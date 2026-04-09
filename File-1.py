@@ -112,3 +112,9 @@ def celsius_to_fahrenheit(c):
     return (c * 9/5) + 32
 
 print(f"25°C is {celsius_to_fahrenheit(25)}°F")
+
+
+import pandas as pd
+# Scrapes all tables from a Wikipedia page into a list of DataFrames
+tables = pd.read_html("https://wikipedia.org")
+print(tables[0].head())

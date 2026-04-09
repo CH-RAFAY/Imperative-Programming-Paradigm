@@ -77,3 +77,10 @@ print(is_prime())
 
 name = input("What is your name? ")
 print(f"Hello, {name}! Welcome to Python.")
+
+
+import random
+
+chars = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789!@#$%^&*"
+password = "".join(random.choice(chars) for _ in range(12))
+print(f"Generated Password: {password}")

@@ -96,3 +96,8 @@ from datetime import datetime
 
 now = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
 print(f"Current Date and Time: {now}")
+
+
+numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+evens = [x for x in numbers if x % 2 == 0]
+print(f"Even numbers: {evens}")

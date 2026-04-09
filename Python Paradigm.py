@@ -74,3 +74,6 @@ def is_prime(s):
         return True
         
 print(is_prime())
+
+name = input("What is your name? ")
+print(f"Hello, {name}! Welcome to Python.")

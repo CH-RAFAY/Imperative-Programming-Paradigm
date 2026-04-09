@@ -106,3 +106,9 @@ print(f"Even numbers: {evens}")
 with open("my_note.txt", "w") as f:
     f.write("This is a quick note saved from Python!")
 print("File created successfully.")
+
+
+def celsius_to_fahrenheit(c):
+    return (c * 9/5) + 32
+
+print(f"25°C is {celsius_to_fahrenheit(25)}°F")

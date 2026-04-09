@@ -61,3 +61,17 @@ print(freq(s))
 
 
 
+
+
+
+
+
+def celsius_to_fahrenheit(c):
+    return (c * 9/5) + 32
+
+print(f"25°C is {celsius_to_fahrenheit(25)}°F")
+
+
+
+
+

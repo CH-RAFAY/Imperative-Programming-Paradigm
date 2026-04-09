@@ -84,3 +84,9 @@ import random
 chars = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789!@#$%^&*"
 password = "".join(random.choice(chars) for _ in range(12))
 print(f"Generated Password: {password}")
+
+
+def is_palindrome(word):
+    return word == word[::-1]
+
+print(is_palindrome("radar"))  # Returns: True

@@ -82,3 +82,13 @@ num2 = float(input("Enter second number: "))
 result = num1 + num2
 
 print(f"The sum of {num1} and {num2} is {result}")
+
+
+# A simple countdown timer
+count = 5
+
+while count > 0:
+    print(count)
+    count -= 1  # Subtract 1 from count each time
+
+print("Blast off!")

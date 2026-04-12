@@ -101,3 +101,14 @@ print(fizzbuzz)
 text = "complexity"
 char_counts = {char: text.count(char) for char in set(text)}
 print(char_counts)
+
+
+
+# Variables
+name = "Python"
+version = 3.12
+
+# Simple Math
+a = 10
+b = 5
+print(f"Sum of {a} and {b} is {a + b}")

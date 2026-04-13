@@ -117,3 +117,13 @@ print(f"Sum of {a} and {b} is {a + b}")
 # Prints 1, 2, 3... up to 10
 for i in range(1, 11):
     print(i)
+
+
+
+import uuid
+
+# Generate a random unique ID (UUID4)
+unique_id = uuid.uuid4()
+
+print(f"Full UUID: {unique_id}")
+print(f"Hex format: {unique_id.hex}")

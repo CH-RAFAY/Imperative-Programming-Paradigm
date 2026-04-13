@@ -112,3 +112,8 @@ version = 3.12
 a = 10
 b = 5
 print(f"Sum of {a} and {b} is {a + b}")
+
+
+# Prints 1, 2, 3... up to 10
+for i in range(1, 11):
+    print(i)

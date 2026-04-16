@@ -127,3 +127,13 @@ unique_id = uuid.uuid4()
 
 print(f"Full UUID: {unique_id}")
 print(f"Hex format: {unique_id.hex}")
+
+
+
+
+
+name = "Alice"
+age = 25
+next_year = age + 1
+
+print(f"Hi {name}, next year you will be {next_year}!")

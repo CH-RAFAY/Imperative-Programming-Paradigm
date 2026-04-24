@@ -137,3 +137,12 @@ age = 25
 next_year = age + 1
 
 print(f"Hi {name}, next year you will be {next_year}!")
+
+
+
+def get_perms(s):
+    if len(s) <= 1: return [s]
+    res = []
+    for i in range(len(s)):
+        res += [p[:i] + [s[0]] + p[i:] for p in get_perms(s[1:])]
+    return res

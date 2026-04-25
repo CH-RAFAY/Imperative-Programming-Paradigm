@@ -146,3 +146,9 @@ def get_perms(s):
     for i in range(len(s)):
         res += [p[:i] + [s[0]] + p[i:] for p in get_perms(s[1:])]
     return res
+def get_primes(n):
+    primes = [True] * (n + 1)
+    for p in range(2, int(n**0.5) + 1):
+        if primes[p]:
+            primes[p*p : n+1 : p] = [False] * len(range(p*p, n+1, p))
+    return [i for i in range(2, n + 1) if primes[i]]
